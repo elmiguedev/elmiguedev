@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "name": "elmigue-dev",
+    "alias": ["elmigue.dev"],
+    "routes": [
+      {
+        "src": "^/",
+        "status": 301,
+        "headers": { "Location": "https://github.com/elmiguedev" }
+      },
+      {
+        "src": "^/gameoflife",
+        "status": 301,
+        "headers": { "Location": "https://elmiguedev.github.io/conways-game-of-life/" }
+      }
+    ]
+  }
